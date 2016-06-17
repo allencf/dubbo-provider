@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>allen-dubbo-provider-service</module>
+  	<module>allen-dubbo-provider-service-impl</module>
   </modules>
 </project>
