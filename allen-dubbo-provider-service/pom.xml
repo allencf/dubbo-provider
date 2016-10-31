@@ -8,4 +8,10 @@
   <artifactId>allen-dubbo-provider-service</artifactId>
   <name>allen-dubbo-provider-service</name>
   <description>dubbo test service</description>
+  
+  <dependencies>
+  	   
+	    
+  </dependencies>
+  
 </project>

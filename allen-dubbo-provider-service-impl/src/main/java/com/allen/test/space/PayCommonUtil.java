@@ -1,4 +1,4 @@
-package com.allen.dubbo.service.impl;
+package com.allen.test.space;
 import java.security.MessageDigest;
 import java.util.Iterator;
 import java.util.Map;
