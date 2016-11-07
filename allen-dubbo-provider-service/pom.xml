@@ -10,7 +10,7 @@
   <description>dubbo test service</description>
   
   <dependencies>
-  	    <!-- spring核心依赖 -->
+  	    <!-- spring核心依赖 star ==================== -->
 	    <dependency>
 	        <groupId>org.springframework</groupId>
 	        <artifactId>spring-core</artifactId>
@@ -40,6 +40,35 @@
 		    <artifactId>spring-context</artifactId>
 		    <version>4.1.6.RELEASE</version>
 		</dependency>
+		<!-- spring核心依赖 end ==================== -->
+		
+		
+		<!-- log4j依赖start ======================= -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.9</version>
+		</dependency>
+		
+		 <!-- <dependency>
+              <groupId>ch.qos.logback</groupId>
+              <artifactId>logback-core</artifactId>
+              <version>1.0.13</version>
+           </dependency> -->
+           
+        <dependency>
+           <groupId>ch.qos.logback</groupId>
+           <artifactId>logback-classic</artifactId>
+           <version>1.0.13</version>
+           <type>jar</type>
+        </dependency>
+		
+		<dependency>
+		  <groupId>org.logback-extensions</groupId>
+		  <artifactId>logback-ext-spring</artifactId>
+		  <version>0.1.2</version>
+		</dependency>
+ 		<!-- log4j依赖end  ======================= -->
 	  	
   </dependencies>
   
